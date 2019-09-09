@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*import google font*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    width: 80%;
+    margin-top: 1.5em;
+    margin: auto;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    text-align: left;
+    border-top: 1px solid black;
+    padding: 0.5em;
+}
+

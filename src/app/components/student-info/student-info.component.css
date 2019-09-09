@@ -1,0 +1,16 @@
+.gradeA {
+    color: green;
+    font-weight: 700;
+}
+.gradeB {
+    color: rgb(137, 250, 137);
+    font-weight: 700;
+}
+.gradeC {
+    color: orange;
+    font-weight: 700;
+}
+.gradeD {
+    color: red;
+    font-weight: 700;
+}

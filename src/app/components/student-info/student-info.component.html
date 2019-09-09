@@ -1,0 +1,12 @@
+<div>
+    <h2>Student Information:</h2>
+    <table>
+        <tr><th>ID:</th><th>First Name:</th><th>Last Name:</th><th>Grade Average:</th></tr>
+        <tr>
+            <td>{{ student.sid }}</td>
+            <td>{{ student.fname }}</td>
+            <td>{{ student.lname }}</td>
+            <td [ngClass]="setClass()">{{ student.averageGrade }}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,6 @@
+<h3>Enter First Name (case sensitive):</h3>
+<form action="submit">
+    <!--on keyup call onKey method to search data for match-->
+    <input (keyup)="onKey($event)">
+    <p>{{values}}</p>
+</form>
